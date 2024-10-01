@@ -9,7 +9,7 @@ def EBOLA(x, T):
     B = x[4]  # Buried
     R = x[5]  # Recovered
 
-    # Parameters
+    # Parameters for ebola disease model, these have been got from online sources and other works
     N = 60000  # Total population
     Bi = 0.3   # Effective contact rate between infected and susceptible
     Bd = 1.0   # Effective contact rate between dead and susceptible
